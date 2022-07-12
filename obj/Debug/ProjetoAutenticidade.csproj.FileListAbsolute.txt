@@ -1,0 +1,16 @@
+C:\Users\patri\source\repos\ProjetoAutenticidade\ProjetoAutenticidade\bin\Debug\ProjetoAutenticidade.exe.config
+C:\Users\patri\source\repos\ProjetoAutenticidade\ProjetoAutenticidade\bin\Debug\ProjetoAutenticidade.exe
+C:\Users\patri\source\repos\ProjetoAutenticidade\ProjetoAutenticidade\bin\Debug\ProjetoAutenticidade.pdb
+C:\Users\patri\source\repos\ProjetoAutenticidade\ProjetoAutenticidade\obj\Debug\ProjetoAutenticidade.csproj.AssemblyReference.cache
+C:\Users\patri\source\repos\ProjetoAutenticidade\ProjetoAutenticidade\obj\Debug\ProjetoAutenticidade.Form1.resources
+C:\Users\patri\source\repos\ProjetoAutenticidade\ProjetoAutenticidade\obj\Debug\ProjetoAutenticidade.Properties.Resources.resources
+C:\Users\patri\source\repos\ProjetoAutenticidade\ProjetoAutenticidade\obj\Debug\ProjetoAutenticidade.csproj.GenerateResource.cache
+C:\Users\patri\source\repos\ProjetoAutenticidade\ProjetoAutenticidade\obj\Debug\ProjetoAutenticidade.csproj.CoreCompileInputs.cache
+C:\Users\patri\source\repos\ProjetoAutenticidade\ProjetoAutenticidade\obj\Debug\ProjetoAutenticidade.exe
+C:\Users\patri\source\repos\ProjetoAutenticidade\ProjetoAutenticidade\obj\Debug\ProjetoAutenticidade.pdb
+C:\Users\patri\source\repos\ProjetoAutenticidade\ProjetoAutenticidade\obj\Debug\ProjetoAutenticidade.CadastroUsuario.resources
+C:\Users\patri\source\repos\ProjetoAutenticidade\ProjetoAutenticidade\obj\Debug\ProjetoAutenticidade.InfNivel1.resources
+C:\Users\patri\source\repos\ProjetoAutenticidade\ProjetoAutenticidade\obj\Debug\ProjetoAutenticidade.infNivel2.resources
+C:\Users\patri\source\repos\ProjetoAutenticidade\ProjetoAutenticidade\obj\Debug\ProjetoAutenticidade.InfNivel2Autenticada.resources
+C:\Users\patri\source\repos\ProjetoAutenticidade\ProjetoAutenticidade\obj\Debug\ProjetoAutenticidade.InfNivel3Autenticada.resources
+C:\Users\patri\source\repos\ProjetoAutenticidade\ProjetoAutenticidade\obj\Debug\ProjetoAutenticidade.InfNivel3.resources
