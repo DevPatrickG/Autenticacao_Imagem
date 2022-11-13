@@ -68,9 +68,13 @@ namespace ProjetoAutenticidade
                 string refPixels;
                 imagem = new Bitmap(nomeArquivo);
                 cont = string.Empty;
-
                 pgBar.Maximum = imagem.Width;
-               
+
+                //Validação para a dimensão da Imagem
+                if (imagem.Width != 300 && imagem.Height != 300)
+                {
+                    throw new Exception("O Autenticador só aceita imagens com Dimensões 300 x 300!");
+                }
                 for (int x = 0; x < imagem.Width; x++)
                 {
                     for (int y = 0; y < imagem.Height; y++)

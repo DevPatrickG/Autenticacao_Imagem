@@ -11,7 +11,7 @@ namespace ProjetoAutenticidade
     {
         public SqlConnection Conectar()
         {
-            String strConexao = @"Data Source=DESKTOP-E82EH9M\SQLEXPRESS;Initial Catalog=Autenticidade;Integrated Security=True";
+            String strConexao = @"Data Source=DESKTOP-JB5CLQ3\SQLEXPRESS;Initial Catalog=Autenticidade;Integrated Security=True";
             SqlConnection sqlCon = new SqlConnection(strConexao);
             if (sqlCon.State.ToString() == "Closed")
             {
