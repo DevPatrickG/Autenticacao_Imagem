@@ -24,7 +24,7 @@ CREATE TABLE [dbo].[Acesso_Biometrico]( <br>
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY] 
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY] <br>
 GO
-	
+<h1> Após, deve ir no Projeto, na clase "clsConexao" na Linha 14 e mudar o caminho da conexão para o caminho de conexão de suas máquinas:
 </div>
 <h2> Após Executar o Script, o Programa estará pronto para uso. Suas funcionalidades serão mostradas. </h2>
 <div>
