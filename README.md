@@ -58,5 +58,5 @@ GO
 </div>
 <h3> A Autenticação foi um Sucesso:
 <div> <img src="https://user-images.githubusercontent.com/106789317/201968624-11934dc8-a66b-4aa7-9611-763f76c84c88.PNG" </div>
-<h3>Esse foi o exemplo de funcionalidade do sistema. Obs: Caso efetuar um cadastro de usuário de "Diretor de Divisão". A Autenticação deve ocorrer na tela :"Informações Nivel 2" </h3>
+<h3>Esse foi o exemplo de funcionalidade do sistema.<br> Obs: Caso efetuar um cadastro de usuário de "Diretor de Divisão". A Autenticação deve ocorrer na tela :"Informações Nivel 2" </h3>
 
