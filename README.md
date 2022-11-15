@@ -7,22 +7,22 @@
 </div>
   <h3> 3° Deve Executar esse seguinte Script: </h3>
 <div style="background-color: #FF0000">
-USE [Autenticidade]
-GO
-/****** Object:  Table [dbo].[Acesso_Biometrico]    Script Date: 13/11/2022 19:33:43 ******/
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
-CREATE TABLE [dbo].[Acesso_Biometrico](
-	[Nome_Usuario] [varchar](50) NOT NULL,
-	[Usuario] [int] NOT NULL,
-	[Cod_Biometrico] [text] NOT NULL,
- CONSTRAINT [PK_Acesso_Biometrico] PRIMARY KEY CLUSTERED 
-(
-	[Nome_Usuario] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
-) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+USE [Autenticidade] <br>
+GO <br>
+/****** Object:  Table [dbo].[Acesso_Biometrico]    Script Date: 13/11/2022 19:33:43 ******/<br>
+SET ANSI_NULLS ON <br>
+GO <br>
+SET QUOTED_IDENTIFIER ON <br>
+GO <br>
+CREATE TABLE [dbo].[Acesso_Biometrico]( <br>
+	[Nome_Usuario] [varchar](50) NOT NULL, <br>
+	[Usuario] [int] NOT NULL, <br> 
+	[Cod_Biometrico] [text] NOT NULL, <br>
+ CONSTRAINT [PK_Acesso_Biometrico] PRIMARY KEY CLUSTERED <br>
+( <br>
+	[Nome_Usuario] ASC <br>
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY] 
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY] <br>
 GO
 	
 </div>
