@@ -7,7 +7,7 @@
 </div>
   <h3> 3° Deve Executar esse seguinte Script: </h3>
 <div style="background-color: #FF0000">
-USE [Autenticidade] <br>
+	<font color = "red"> USE [Autenticidade] </font> <br>
 GO <br>
 /****** Object:  Table [dbo].[Acesso_Biometrico]    Script Date: 13/11/2022 19:33:43 ******/<br>
 SET ANSI_NULLS ON <br>
