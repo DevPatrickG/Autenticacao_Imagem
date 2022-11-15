@@ -24,12 +24,12 @@ CREATE TABLE [dbo].[Acesso_Biometrico]( <br>
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY] 
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY] <br>
 GO
-<h3> Após, deve ir no Projeto, na classe "clsConexao" na Linha 14 e mudar o caminho da conexão para o caminho de conexão do banco de sua máquina: </h3>
+<h3> Depois, deve ir no Projeto, na classe "clsConexao" na Linha 14 e mudar o caminho da conexão para o caminho de conexão do banco de sua máquina: </h3>
 <div>
 <img src="https://user-images.githubusercontent.com/106789317/201972331-42d23357-879d-4b70-b5e1-4f7a9a09f1a3.PNG"
 </div>
 </div>
-<h2> Após Executar o Script, o Programa estará pronto para uso. Suas funcionalidades serão mostradas. </h2>
+<h2> Após Executar o Script e configurar o banco no código do programa, o sistema estará pronto para uso. Suas funcionalidades serão mostradas. </h2>
 <div>
 <h3> Essa é a tela Principal: <h3>
 <img src="https://user-images.githubusercontent.com/106789317/201951178-3fd6d0f8-fa6b-4f89-bd35-6f259a291677.PNG"<br>
