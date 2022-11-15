@@ -30,7 +30,6 @@ GO
 <div>
 <h3> Essa é a tela Principal: <h3>
 <img src="https://user-images.githubusercontent.com/106789317/201951178-3fd6d0f8-fa6b-4f89-bd35-6f259a291677.PNG"
-<img src"https://user-images.githubusercontent.com/106789317/201956550-5795f47c-cbe7-4af9-960a-9b906f825db2.PNG"
 </div>
 
 	
