@@ -35,5 +35,5 @@ GO
 	
 <h4> Tela "Cadastro Para Acesso" <h4>
 <img src="https://user-images.githubusercontent.com/106789317/201951851-7611c984-9886-4982-ad8f-ef989b2068b9.PNG"
-
+<h3> 4° Nessa tela, deve cadastrar o perfil de autenticidade. Primeiro você informa o Nome do Usuário, depois escolhe qual é o tipo de perfil do mesmo, como está informado na checkbox: "Diretor de Divisão" ou Ministro do "Meio Ambiente". Após anexar uma imagem. Lembrando que a Imagem deve ser Dimensões 300px height/ 300px width </h3>
 </div>
