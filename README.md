@@ -30,10 +30,10 @@ GO
 <div>
 <h3> Essa é a tela Principal: <h3>
 <img src="https://user-images.githubusercontent.com/106789317/201951178-3fd6d0f8-fa6b-4f89-bd35-6f259a291677.PNG"<br>
-<h3>° "Cadastro Para Acesso": Essa tela é para cadastrar o usuário com imagem para depois autenticar </h3>
-<h3>° "Informações Nivel 1": Essa tela é uma tela com informações livres, não necessitando de autenticação</h3>
-<h3>° "Informações Nivel 2": Essa tela necessita de autenticação. Deve existir cadastro de "Diretor de Divisão"</h3>
-<h3>° "Informações Nivel 3": Essa tela necessita de autenticação. Deve existir cadastro de "Ministro do meio Ambiente"</h3>
+<h3>° "Cadastro Para Acesso": Essa tela é para cadastrar o usuário com imagem para depois autenticar. </h3>
+<h3>° "Informações Nivel 1": Essa tela é uma tela com informações livres, não necessitando de autenticação.</h3>
+<h3>° "Informações Nivel 2": Essa tela necessita de autenticação. Deve existir cadastro de "Diretor de Divisão".</h3>
+<h3>° "Informações Nivel 3": Essa tela necessita de autenticação. Deve existir cadastro de "Ministro do meio Ambiente".</h3>
 </div>
 
 	
@@ -43,7 +43,7 @@ GO
 <h3> <br> 4° Nessa tela, deve cadastrar o perfil de Autenticidade. <br> <br>
 ° Primeiro deve informar o Nome do Usuário <br> <br>
 ° Segundo, escolher qual é o tipo de perfil do mesmo, como está informado na checkbox: <br> "Diretor de Divisão" ou Ministro do "Meio Ambiente". <br> <br>
-° Após, deve anexar uma imagem para autenticação. Lembrando que a Imagem deve ter Dimensões 300px height/ 300px width, para seguir o padrão <br> <br>
+° Após, deve anexar uma imagem para autenticação. Lembrando que a Imagem deve ter Dimensões 300px height/ 300px width. É obrigatório ter esse padrão! <br> <br>
 ° Na Pasta "Imagens" que está versionada no Projeto. Deixei 4 Imagens com Dimensões 300px / 300px. Podem usar-las:<br>
 <img src="https://user-images.githubusercontent.com/106789317/201955473-3c5d8259-e567-4165-90d8-9ef7bb364416.PNG" <br><br>
 5° Efetuei um Cadastro como Perfil Ministro do Meio Ambiente, como está processando: <br></h3>	
