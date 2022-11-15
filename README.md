@@ -56,4 +56,6 @@ GO
 <div>
 <img src="https://user-images.githubusercontent.com/106789317/201967460-51082c3f-b15e-4381-8b7d-74b7aae4ee6d.PNG"
 </div>
+<h3> A Autenticação foi um Sucesso:
+<div> <img src="https://user-images.githubusercontent.com/106789317/201968624-11934dc8-a66b-4aa7-9611-763f76c84c88.PNG" </div>
 
