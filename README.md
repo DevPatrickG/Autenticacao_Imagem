@@ -51,5 +51,6 @@ GO
 <h3> E a Inserção foi um Sucesso! </h3>
 <div> <img src="https://user-images.githubusercontent.com/106789317/201958689-935feb6e-a61a-4ad3-82ed-711e321861c1.PNG" </div>
 </div>
-<h3> Após, devo retornar </h3>
+<h3> Após, devo retornar ao menu principal e ir na Tela :"Informações Nivel 3", pois o meu cadastro foi do tipo de Perfil "Ministro do meio Ambiente"</h3>
+6° Como mostra na imagem a seguir, informo o mesmo nome e a mesma imagem que cadastrei no exemplo 5:
 
