@@ -24,7 +24,7 @@ CREATE TABLE [dbo].[Acesso_Biometrico]( <br>
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY] 
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY] <br>
 GO
-<h3> Após, deve ir no Projeto, na clase "clsConexao" na Linha 14 e mudar o caminho da conexão para o caminho de conexão de suas máquinas: </h3>
+<h3> Após, deve ir no Projeto, na classe "clsConexao" na Linha 14 e mudar o caminho da conexão para o caminho de conexão de suas máquinas: </h3>
 <div>
 <img src="https://user-images.githubusercontent.com/106789317/201972331-42d23357-879d-4b70-b5e1-4f7a9a09f1a3.PNG"
 </div>
