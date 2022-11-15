@@ -26,5 +26,5 @@ CREATE TABLE [dbo].[Acesso_Biometrico]( <br>
 GO
 	
 </div>
-<h2> Após Executar o Script, o Programa estará pronto para uso. Mostrarei suas funcionalidades." </h2>
+<h2> Após Executar o Script, o Programa estará pronto para uso. Suas funcionalidades serão mostradas. </h2>
 
