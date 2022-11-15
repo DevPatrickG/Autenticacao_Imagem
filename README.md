@@ -46,9 +46,10 @@ GO
 ° Após, deve anexar uma imagem para autenticação. Lembrando que a Imagem deve ter Dimensões 300px height/ 300px width. É obrigatório ter esse padrão! <br> <br>
 ° Na Pasta "Imagens" que está versionada no Projeto. Deixei 4 Imagens com Dimensões 300px / 300px. Podem usar-las:<br>
 <img src="https://user-images.githubusercontent.com/106789317/201955473-3c5d8259-e567-4165-90d8-9ef7bb364416.PNG" <br><br>
-5° Efetuei um Cadastro como Perfil Ministro do Meio Ambiente, como está processando: <br></h3>	
+5° Será mostrado um exemplo de como manusear o sistema. Primeiro Efetuei um Cadastro "TESTE" como Perfil Ministro do Meio Ambiente, como está processando: <br></h3>
 <div> <img src="https://user-images.githubusercontent.com/106789317/201959363-ba7a2191-0556-4d4a-aab8-b1cf37247a40.PNG" <br> 
 <h3> E a Inserção foi um Sucesso! </h3>
 <div> <img src="https://user-images.githubusercontent.com/106789317/201958689-935feb6e-a61a-4ad3-82ed-711e321861c1.PNG" </div>
 </div>
+<h3> Após, devo retornar </h3>
 
