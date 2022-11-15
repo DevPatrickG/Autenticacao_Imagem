@@ -30,10 +30,10 @@ GO
 <div>
 <h3> Essa é a tela Principal: <h3>
 <img src="https://user-images.githubusercontent.com/106789317/201951178-3fd6d0f8-fa6b-4f89-bd35-6f259a291677.PNG"<br>
-<h2>° "Cadastro Para Acesso": Essa tela é para cadastrar o usuário com imagem para depois autenticar </h2>
-<h2>° "Informações Nivel 1": Essa tela é uma tela com informações livres, não necessitando de autenticação</h2>
-<h2>° "Informações Nivel 2": Essa tela necessita de autenticação. Deve existir cadastro de "Diretor de Divisão"</h2>
-<h2>° "Informações Nivel 3": Essa tela necessita de autenticação. Deve existir cadastro de "Ministro do meio Ambiente"</h2>
+<h3>° "Cadastro Para Acesso": Essa tela é para cadastrar o usuário com imagem para depois autenticar </h3>
+<h3>° "Informações Nivel 1": Essa tela é uma tela com informações livres, não necessitando de autenticação</h3>
+<h3>° "Informações Nivel 2": Essa tela necessita de autenticação. Deve existir cadastro de "Diretor de Divisão"</h3>
+<h3>° "Informações Nivel 3": Essa tela necessita de autenticação. Deve existir cadastro de "Ministro do meio Ambiente"</h3>
 </div>
 
 	
