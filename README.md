@@ -27,4 +27,7 @@ GO
 	
 </div>
 <h2> Após Executar o Script, o Programa estará pronto para uso. Suas funcionalidades serão mostradas. </h2>
+<div>
+<img src="https://user-images.githubusercontent.com/106789317/201949894-fa41b2f6-a3f6-4845-90bc-71e9c71cad9d.PNG"
 
+</div>
