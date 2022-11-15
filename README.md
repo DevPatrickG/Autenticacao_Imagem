@@ -45,7 +45,7 @@ GO
      
 <h3> <br> 4° Nessa tela, deve cadastrar o perfil de Autenticidade. <br> <br>
 ° Primeiro deve informar o Nome do Usuário <br> <br>
-° Segundo, escolher qual é o tipo de perfil do mesmo, como está informado na checkbox: <br> "Diretor de Divisão" ou "Ministro do Meio Ambiente". <br> <br>
+° Segundo, escolher qual é o tipo de perfil do mesmo, como está informado nas checkboxs: <br> "Diretor de Divisão" ou "Ministro do Meio Ambiente". <br> <br>
 ° Após, deve anexar uma imagem para autenticação. Lembrando que a Imagem deve ter Dimensões 300px height/ 300px width. É obrigatório ter esse padrão! <br> <br>
 ° Na Pasta "Imagens" que está versionada no Projeto. Deixei 4 Imagens com Dimensões 300px / 300px. Podem usar-las:<br>
 <img src="https://user-images.githubusercontent.com/106789317/201955473-3c5d8259-e567-4165-90d8-9ef7bb364416.PNG" <br><br>
