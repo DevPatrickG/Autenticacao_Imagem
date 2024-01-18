@@ -1,4 +1,4 @@
-<h1> Autenticação de Imagem. APS - 6° Semestre </h1> 
+<h1> Autenticação de Imagem</h1> 
 <h2> Esse projeto é sobre Autenticação por imagem. <br> Se baseia em contar a númeração da coloração de cada pixel da imagem, ou seja, o método é 100% preciso, pois se tiver uma númeração diferente, a autenticação não ocorre. <br> Para iniciarmos, primeiramente devemos realizar algumas configurações do banco de dados. </h2>
 <h3> 1° Deve ter SQL Server instalado na máquina. De preferência o Microsoft SQL Server Management Studio 2018 </h3>
 <h3> 2° Deve Criar um banco de dados com o Nome "Autenticidade" </h3> 
