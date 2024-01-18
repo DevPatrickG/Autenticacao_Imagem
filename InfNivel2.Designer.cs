@@ -65,7 +65,7 @@ namespace ProjetoAutenticidade
             this.btnVoltar.TabIndex = 5;
             this.btnVoltar.Text = "Voltar";
             this.btnVoltar.UseVisualStyleBackColor = false;
-            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
+            this.btnVoltar.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // lblNomeUsuario
             // 
@@ -92,7 +92,7 @@ namespace ProjetoAutenticidade
             this.btnLimparImagem.TabIndex = 12;
             this.btnLimparImagem.Text = "LIMPAR IMAGEM";
             this.btnLimparImagem.UseVisualStyleBackColor = true;
-            this.btnLimparImagem.Click += new System.EventHandler(this.btnLimparImagem_Click);
+            this.btnLimparImagem.Click += new System.EventHandler(this.btnClearImage_Click);
             // 
             // btnAnexarImagem
             // 
@@ -102,7 +102,7 @@ namespace ProjetoAutenticidade
             this.btnAnexarImagem.TabIndex = 11;
             this.btnAnexarImagem.Text = "ANEXAR IMAGEM";
             this.btnAnexarImagem.UseVisualStyleBackColor = true;
-            this.btnAnexarImagem.Click += new System.EventHandler(this.btnAnexarImagem_Click);
+            this.btnAnexarImagem.Click += new System.EventHandler(this.btnImageAttachment_Click);
             // 
             // ImagemBOX
             // 
@@ -127,7 +127,7 @@ namespace ProjetoAutenticidade
             this.btnAutenticar.TabIndex = 17;
             this.btnAutenticar.Text = "Autenticar";
             this.btnAutenticar.UseVisualStyleBackColor = true;
-            this.btnAutenticar.Click += new System.EventHandler(this.btnAutenticar_Click);
+            this.btnAutenticar.Click += new System.EventHandler(this.btnAuthenticate_Click);
             // 
             // pgBar
             // 
@@ -145,7 +145,7 @@ namespace ProjetoAutenticidade
             this.btnSair.TabIndex = 19;
             this.btnSair.Text = "Sair";
             this.btnSair.UseVisualStyleBackColor = true;
-            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
+            this.btnSair.Click += new System.EventHandler(this.btnQuit_Click);
             // 
             // InfNivel2
             // 

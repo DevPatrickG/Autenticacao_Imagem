@@ -41,11 +41,11 @@ namespace ProjetoAutenticidade
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.label3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label3.Location = new System.Drawing.Point(123, 87);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(584, 260);
+            this.label3.Size = new System.Drawing.Size(750, 260);
             this.label3.TabIndex = 11;
             this.label3.Text = resources.GetString("label3.Text");
             // 
@@ -58,7 +58,7 @@ namespace ProjetoAutenticidade
             this.btnSair.TabIndex = 13;
             this.btnSair.Text = "Sair";
             this.btnSair.UseVisualStyleBackColor = true;
-            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
+            this.btnSair.Click += new System.EventHandler(this.btnQuit_Click);
             // 
             // btnVoltar
             // 
@@ -72,6 +72,7 @@ namespace ProjetoAutenticidade
             this.btnVoltar.TabIndex = 12;
             this.btnVoltar.Text = "Voltar";
             this.btnVoltar.UseVisualStyleBackColor = false;
+            this.btnVoltar.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // label4
             // 
@@ -98,11 +99,11 @@ namespace ProjetoAutenticidade
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DarkGreen;
             this.label2.Location = new System.Drawing.Point(12, 9);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(379, 15);
+            this.label2.Size = new System.Drawing.Size(352, 16);
             this.label2.TabIndex = 16;
             this.label2.Text = "* Acesso 3 - Permitido para o Ministério do meio Ambiente";
             // 

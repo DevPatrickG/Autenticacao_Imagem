@@ -1,31 +1,22 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Data.SqlClient;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ProjetoAutenticidade
 {
-    public partial class Form1 : Form
+    public partial class InitialMenu : Form
     {
-        public Form1()
+        public InitialMenu()
         {
             InitializeComponent();
         }
 
-
-        private void btnCadastroAcesso_Click(object sender, EventArgs e)
+        private void btnRegistrationAccess_Click(object sender, EventArgs e)
         {
             CadastroUsuario cadastroUsuario = new CadastroUsuario();
             cadastroUsuario.ShowDialog();
         }
 
-        private void btnSair_Click(object sender, EventArgs e)
+        private void btnQuit_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
