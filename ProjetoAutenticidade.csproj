@@ -52,12 +52,12 @@
     <Compile Include="CadastroUsuario.Designer.cs">
       <DependentUpon>CadastroUsuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="clsConexao.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="ClsConection.cs" />
+    <Compile Include="InitialMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="InitialMenu.Designer.cs">
+      <DependentUpon>InitialMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="InfNivel1.cs">
       <SubType>Form</SubType>
@@ -94,8 +94,8 @@
     <EmbeddedResource Include="CadastroUsuario.resx">
       <DependentUpon>CadastroUsuario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="InitialMenu.resx">
+      <DependentUpon>InitialMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InfNivel1.resx">
       <DependentUpon>InfNivel1.cs</DependentUpon>

@@ -17,18 +17,19 @@ namespace ProjetoAutenticidade
             InitializeComponent();
         }
 
-        static string nomeArquivo;
+
+        static string nameArchive;
         Bitmap imagem;
         string cont;
         int usuario = 0;
         
-        private void btnVoltar_Click(object sender, EventArgs e)
+        private void btnBack_Click(object sender, EventArgs e)
         {
-            Form1 form1 = new Form1();
+            InitialMenu form1 = new InitialMenu();
             form1.ShowDialog();
         }
 
-        private void btnAnexarImagem_Click(object sender, EventArgs e)
+        private void btnImageAttachment_Click(object sender, EventArgs e)
         {
             ofd.FileName = "";
             ofd.Title = "Imagens";
@@ -38,12 +39,12 @@ namespace ProjetoAutenticidade
             ofd.ShowDialog();
             if (ofd.FileName.ToString() != "")
             {
-                nomeArquivo = ofd.FileName.ToString();
-                ImagemBOX.Image = new Bitmap(nomeArquivo);
+                nameArchive = ofd.FileName.ToString();
+                ImagemBOX.Image = new Bitmap(nameArchive);
             }
         }
 
-        private void btnLimparImagem_Click(object sender, EventArgs e)
+        private void btnClearImage_Click(object sender, EventArgs e)
         {
             ImagemBOX.Image = null;            
         }
@@ -60,7 +61,7 @@ namespace ProjetoAutenticidade
 
         }
 
-        private void btnSalvarCadastro_Click(object sender, EventArgs e)
+        private void btnSaveAccount_Click(object sender, EventArgs e)
         {
             try
             {
@@ -69,7 +70,7 @@ namespace ProjetoAutenticidade
                 {
                     throw new Exception("Para efetuar o cadastro, é necessário selecionar o tipo de perfil!");
                 }
-                if(nomeArquivo.Equals(null))
+                if(nameArchive.Equals(null))
                 {
                     throw new Exception("Para efetuar o cadastro, é necessário arquivar uma imagem!");
                 }
@@ -82,7 +83,7 @@ namespace ProjetoAutenticidade
                 pgBar.Visible = true;
                 btnLimparImagem.Enabled = true;
                 string refPixels;
-                imagem = new Bitmap(nomeArquivo);
+                imagem = new Bitmap(nameArchive);
                 pgBar.Maximum = imagem.Width;
 
                 //Validação para a dimensão da Imagem
@@ -117,8 +118,8 @@ namespace ProjetoAutenticidade
                 #region Inserção no Banco de Dados
                 string nome = txtNome.Text;
                 String resultado;
-                clsConexao con = new clsConexao();
-                resultado = con.InserirDados("Insert Acesso_Biometrico(Nome_Usuario, Usuario, Cod_Biometrico) values ('"+nome+"',"+ usuario +",'"+ cont +"')");         
+                ClsConection con = new ClsConection();
+                resultado = con.Insert("Insert Acesso_Biometrico(Nome_Usuario, Usuario, Cod_Biometrico) values ('"+nome+"',"+ usuario +",'"+ cont +"')");         
                 MessageBox.Show("Inserido com sucesso no banco de dados!");
 
                 //Após inserir no banco, os campos são esvaziados
@@ -135,7 +136,7 @@ namespace ProjetoAutenticidade
             
         }
 
-        private void btnSair_Click(object sender, EventArgs e)
+        private void btnQuit_Click(object sender, EventArgs e)
         {
             Application.Exit(); 
         }

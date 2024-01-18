@@ -1,7 +1,7 @@
 ﻿
 namespace ProjetoAutenticidade
 {
-    partial class Form1
+    partial class InitialMenu
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -29,7 +29,7 @@ namespace ProjetoAutenticidade
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InitialMenu));
             this.btnCadastroAcesso = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
             this.btnInfNvl1 = new System.Windows.Forms.Button();
@@ -45,14 +45,14 @@ namespace ProjetoAutenticidade
             this.btnCadastroAcesso.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnCadastroAcesso.Name = "btnCadastroAcesso";
             this.btnCadastroAcesso.UseVisualStyleBackColor = false;
-            this.btnCadastroAcesso.Click += new System.EventHandler(this.btnCadastroAcesso_Click);
+            this.btnCadastroAcesso.Click += new System.EventHandler(this.btnRegistrationAccess_Click);
             // 
             // btnSair
             // 
             resources.ApplyResources(this.btnSair, "btnSair");
             this.btnSair.Name = "btnSair";
             this.btnSair.UseVisualStyleBackColor = true;
-            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
+            this.btnSair.Click += new System.EventHandler(this.btnQuit_Click);
             // 
             // btnInfNvl1
             // 

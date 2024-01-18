@@ -1,15 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace ProjetoAutenticidade
 {
-    class clsConexao
+    class ClsConection
     {
-        public SqlConnection Conectar()
+        public SqlConnection Connect()
         {
             String strConexao = @"Data Source=DESKTOP-JB5CLQ3\SQLEXPRESS;Initial Catalog=Autenticidade;Integrated Security=True";
             SqlConnection sqlCon = new SqlConnection(strConexao);
@@ -22,20 +19,20 @@ namespace ProjetoAutenticidade
 
         }
 
-        public SqlDataReader Consulta (String cons)
+        public SqlDataReader Query (String cons)
         {
             SqlDataReader dtDados;
-            SqlConnection cons1 = Conectar();
+            SqlConnection cons1 = Connect();
             SqlCommand comando = new SqlCommand(cons, cons1);
             dtDados = comando.ExecuteReader();
 
             return dtDados;
         }
-        public String InserirDados(String comandoInsercao)
+        public String Insert(String comandoInsercao)
         {
-            SqlConnection con1 = Conectar();
-            SqlCommand insere = new SqlCommand(comandoInsercao, con1);
-            insere.ExecuteNonQuery();
+            SqlConnection con1 = Connect();
+            SqlCommand insert = new SqlCommand(comandoInsercao, con1);
+            insert.ExecuteNonQuery();
 
             return "inserido com sucesso";
         }

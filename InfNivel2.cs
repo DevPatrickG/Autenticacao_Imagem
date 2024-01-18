@@ -1,12 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ProjetoAutenticidade
@@ -22,13 +16,13 @@ namespace ProjetoAutenticidade
         Bitmap imagem;
         string cont;
         int usuario = 0;
-        private void btnVoltar_Click(object sender, EventArgs e)
+        private void btnBack_Click(object sender, EventArgs e)
         {
-            Form1 form1 = new Form1();
+            InitialMenu form1 = new InitialMenu();
             form1.ShowDialog();
         }
 
-        private void btnAnexarImagem_Click(object sender, EventArgs e)
+        private void btnImageAttachment_Click(object sender, EventArgs e)
         {
             ofd.FileName = "";
             ofd.Title = "Imagens";
@@ -43,12 +37,12 @@ namespace ProjetoAutenticidade
             }
         }
 
-        private void btnLimparImagem_Click(object sender, EventArgs e)
+        private void btnClearImage_Click(object sender, EventArgs e)
         {
             ImagemBOX.Image = null;
         }
 
-        private void btnAutenticar_Click(object sender, EventArgs e)
+        private void btnAuthenticate_Click(object sender, EventArgs e)
         {
             try
             {
@@ -95,8 +89,8 @@ namespace ProjetoAutenticidade
                 string fimBiometria = cont.Substring(cont.Length - 7900);
                 #endregion
 
-                clsConexao clsConexao = new clsConexao();
-                dados = clsConexao.Consulta("select * from Acesso_Biometrico where Nome_Usuario = '" + txtNome.Text +"' and Usuario = " +
+                ClsConection clsConexao = new ClsConection();
+                dados = clsConexao.Query("select * from Acesso_Biometrico where Nome_Usuario = '" + txtNome.Text +"' and Usuario = " +
                     "" + usuario + " and Cod_Biometrico LIKE '" + iniBiometria + "%' and Cod_Biometrico LIKE '%" + medBiometria +"%' and " +
                     "Cod_Biometrico LIKE '%" + fimBiometria +"'");
                 string teste = string.Empty;
@@ -119,7 +113,7 @@ namespace ProjetoAutenticidade
             }
         }
 
-        private void btnSair_Click(object sender, EventArgs e)
+        private void btnQuit_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
